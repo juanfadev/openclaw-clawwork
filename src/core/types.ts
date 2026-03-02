@@ -82,11 +82,12 @@ export interface EconomicTracker {
 }
 
 export interface TaskManager {
-  // Placeholder for task management
+  [key: string]: unknown;
 }
 
 export interface WorkEvaluator {
   evaluate_artifact(signature: string, task: TaskInfo, artifact_path: string[], description: string): [boolean, number, string, number];
+  [key: string]: unknown;
 }
 
 export const DEFAULT_CONFIG: TrackerConfig = {
