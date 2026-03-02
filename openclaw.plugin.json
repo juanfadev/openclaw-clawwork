@@ -1,4 +1,5 @@
 {
+  "id": "clawwork",
   "name": "clawwork",
   "version": "1.0.0",
   "description": "ClawWork economic survival protocol for OpenClaw",
@@ -6,10 +7,35 @@
     "tools",
     "skills"
   ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "initialBalance": {
+        "type": "number",
+        "default": 1000
+      },
+      "inputPrice": {
+        "type": "number",
+        "default": 2.5,
+        "description": "Cost per 1M input tokens"
+      },
+      "outputPrice": {
+        "type": "number",
+        "default": 10.0,
+        "description": "Cost per 1M output tokens"
+      },
+      "dataPath": {
+        "type": "string",
+        "default": "./data",
+        "description": "Path to store economic data"
+      }
+    }
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/clawwork/openclaw-clawwork"
+    "url": "https://github.com/juanfadev/openclaw-clawwork"
   }
 }
