@@ -1,0 +1,12 @@
+[
+  {"occupation": "Software Developers", "hourly_wage": 55.00, "keywords": ["code", "programming", "develop", "software", "app"]},
+  {"occupation": "Market Research Analysts", "hourly_wage": 38.00, "keywords": ["market", "research", "analysis", "trends"]},
+  {"occupation": "Financial Analysts", "hourly_wage": 45.00, "keywords": ["financial", "finance", "investment", "analysis"]},
+  {"occupation": "Graphic Designers", "hourly_wage": 28.00, "keywords": ["design", "graphic", "visual", "logo", "art"]},
+  {"occupation": "Technical Writers", "hourly_wage": 35.00, "keywords": ["write", "documentation", "technical", "docs"]},
+  {"occupation": "Data Scientists", "hourly_wage": 52.00, "keywords": ["data", "machine learning", "analytics", "ml", "ai"]},
+  {"occupation": "Project Managers", "hourly_wage": 48.00, "keywords": ["project", "manage", "coordinate", "plan"]},
+  {"occupation": "Customer Service Representatives", "hourly_wage": 20.00, "keywords": ["customer", "service", "support", "help"]},
+  {"occupation": "Sales Representatives", "hourly_wage": 32.00, "keywords": ["sales", "sell", "revenue", "business"]},
+  {"occupation": "General and Operations Managers", "hourly_wage": 50.00, "keywords": ["manage", "operations", "general", "business"]}
+]
