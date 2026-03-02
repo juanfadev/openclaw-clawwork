@@ -4,6 +4,37 @@
   "description": "ClawWork economic survival protocol for OpenClaw",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "openclaw": {
+    "extensions": ["./openclaw.plugin.json"]
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0",
+    "@types/uuid": "^9.0.7"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "typescript",
+    "clawwork"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+  "name": "openclaw-clawwork",
+  "version": "1.0.0",
+  "description": "ClawWork economic survival protocol for OpenClaw",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
