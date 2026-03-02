@@ -1,0 +1,15 @@
+{
+  "name": "clawwork",
+  "version": "1.0.0",
+  "description": "ClawWork economic survival protocol for OpenClaw",
+  "provides": [
+    "tools",
+    "skills"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawwork/openclaw-clawwork"
+  }
+}
